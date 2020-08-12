@@ -4,7 +4,7 @@ import "fmt"
 
 func doPurchase(work1, work2 bool) (bool, bool, bool) {
 	purchaseTv50 := work1 && work2
-	purchaseTv32 := work1 != work2 // Ou exclusivo (or)
+	purchaseTv32 := work1 != work2 // ou exclusivo (or)
 	purchaseIceCream := work1 || work2
 
 	return purchaseTv50, purchaseTv32, purchaseIceCream
@@ -25,5 +25,5 @@ func main() {
 	fmt.Println(x, y, !z) // 2 1 true
 
 	// ternary operators does not exists in Go.
-	// Alternatively, we can use an if structure
+	// alternatively, we can use an if structure
 }

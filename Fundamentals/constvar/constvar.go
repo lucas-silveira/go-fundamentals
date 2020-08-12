@@ -7,9 +7,9 @@ import (
 
 func main() {
 	const PI float64 = 3.1415
-	var radius = 3.2 // Tipo (float64) inferido pelo compilador
+	var radius = 3.2 // tipo (float64) inferido pelo compilador
 
-	// Forma reduzida de declarar uma var
+	// forma reduzida de declarar uma var
 	area := PI * m.Pow(radius, 2)
 	fmt.Println("A área da circunferência é", area)
 

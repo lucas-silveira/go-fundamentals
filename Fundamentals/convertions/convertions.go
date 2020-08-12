@@ -29,7 +29,7 @@ func main() {
 	fmt.Println(num - 122) // 1
 
 	b, _ := strconv.ParseBool("true")
-	// A variável b só será verdadeiro para os valores "true" e "1"
+	// a variável b só será verdadeiro para os valores "true" e "1"
 
 	if b {
 		fmt.Println(b) // true
