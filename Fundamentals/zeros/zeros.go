@@ -9,5 +9,5 @@ func main() {
 	var d string
 	var e *int
 
-	fmt.Printf("%v %v %v %q %v", a, b, c, d, e) // 0 0 false  <nil>
+	fmt.Printf("%v %v %v %q %v", a, b, c, d, e) // 0 0 false "" <nil>
 }
