@@ -24,9 +24,9 @@ func rateToConcept(n float64) string {
 }
 
 func main() {
-	fmt.Println(rateToConcept(9.8))
-	fmt.Println(rateToConcept(6.9))
-	fmt.Println(rateToConcept(2.1))
-	fmt.Println(rateToConcept(10.9))
-	fmt.Println(rateToConcept(11))
+	fmt.Println(rateToConcept(9.8))  // A
+	fmt.Println(rateToConcept(6.9))  // C
+	fmt.Println(rateToConcept(2.1))  // E
+	fmt.Println(rateToConcept(10.9)) // A
+	fmt.Println(rateToConcept(11))   // Nota inválida
 }
