@@ -7,8 +7,10 @@ func main() {
 	// e estáticos (o tamanho não varia)
 
 	var rates [3]float64
+	numbers := [...]int{1, 2, 3, 4, 5} // o número de elementos é contado pelo compilador
 
-	fmt.Println(rates) // [0 0 0]
+	fmt.Println(rates)   // [0 0 0]
+	fmt.Println(numbers) // [1 2 3 4 5]
 
 	rates[0], rates[1], rates[2] = 7.8, 4.3, 9.1
 
