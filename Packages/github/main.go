@@ -1,12 +1,12 @@
 package main
 
+// Iremos utilizar o pacote "goarea" baixado do repositório no github
+
 import (
 	"fmt"
 
 	"github.com/lucas-silveira/goarea"
 )
-
-// Iremos utilizar o pacote "goarea" baixado do repositório no github
 
 func main() {
 	fmt.Println(goarea.Circ(6.0))      // 113.0976
