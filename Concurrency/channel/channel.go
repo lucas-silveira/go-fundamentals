@@ -1,5 +1,8 @@
 package main
 
+// Channel é a forma de comunicação entre goroutines
+// Channel é um tipo
+
 import "fmt"
 
 func main() {
