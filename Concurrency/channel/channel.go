@@ -6,7 +6,7 @@ package main
 import "fmt"
 
 func main() {
-	ch := make(chan int, 1) // criando um channel de inteiros com um buffer contendo 1
+	ch := make(chan int, 1) // criando um channel de inteiros com um buffer contendo 1 posição
 
 	ch <- 1 // enviando para o canal o valor 1 (escrita)
 

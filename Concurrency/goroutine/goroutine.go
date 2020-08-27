@@ -16,7 +16,7 @@ func main() {
 	// Execução serial
 	// speak("Maria", "Pq vc não fala comigo?", 3)
 
-	// o comando go cria uma nova rotina e executa a função em uma "thread" separada
+	// o comando go cria uma nova corotina e executa a função em uma "thread" separada
 	// go speak("Maria", "Ei...", 10)
 	// go speak("João", "Opa...", 10)
 
