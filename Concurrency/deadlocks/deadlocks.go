@@ -12,8 +12,6 @@ func routine(c chan int) {
 }
 
 func main() {
-	// o buffer do canal é usado para definir o número de dados/mensagens que o canal pode suportar
-	// canais sem buffer suportam 1 dado/mensagem por default
 	c := make(chan int) // canal sem buffer
 
 	go routine(c)
