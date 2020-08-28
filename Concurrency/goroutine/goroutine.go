@@ -14,12 +14,12 @@ func speak(person, text string, length int) {
 
 func main() {
 	// Execução serial
-	// speak("Maria", "Pq vc não fala comigo?", 3)
+	// speak("Mary", "Pq vc não fala comigo?", 3)
 
 	// o comando go cria uma nova corotina e executa a função em uma "thread" separada
-	// go speak("Maria", "Ei...", 10)
-	// go speak("João", "Opa...", 10)
+	// go speak("Mary", "Ei...", 10)
+	// go speak("John", "Opa...", 10)
 
-	go speak("Maria", "Ei...", 10)
-	speak("João", "Opa...", 5)
+	go speak("Mary", "Ei...", 10)
+	speak("John", "Opa...", 5)
 }

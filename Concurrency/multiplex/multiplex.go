@@ -18,10 +18,10 @@ func foward(source <-chan string, target chan string) {
 }
 
 // multiplexar
-func join(input1, input2 <-chan string) <-chan string {
+func join(c1, c2 <-chan string) <-chan string {
 	c := make(chan string)
-	go foward(input1, c)
-	go foward(input2, c)
+	go foward(c1, c)
+	go foward(c2, c)
 
 	return c
 }
