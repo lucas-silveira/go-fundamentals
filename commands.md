@@ -30,6 +30,11 @@ Efetuar todos os testes dentro de um diretório
 go test
 ```
 
+Efetuar os testes no modo "verboso" (com detalhes)
+```
+go test -v
+```
+
 Efetuar todos os testes dentro de sub diretórios
 ```
 go test ./...
