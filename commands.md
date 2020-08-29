@@ -24,3 +24,13 @@ Validar arquivo e expor erros:
 ```
 go vet arquivo.go
 ```
+
+Efetuar todos os testes dentro de um diretório
+```
+go test
+```
+
+Efetuar todos os testes dentro de sub diretórios
+```
+go test ./...
+```
