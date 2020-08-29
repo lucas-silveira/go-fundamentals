@@ -24,10 +24,10 @@ func TestIndex(t *testing.T) {
 
 	for _, test := range tests {
 		t.Logf("Massa: %v", test)
-		current := strings.Index(test.text, test.part)
+		index := strings.Index(test.text, test.part)
 
-		if current != test.expected {
-			t.Errorf(msgIndex, test.text, test.part, test.expected, current)
+		if index != test.expected {
+			t.Errorf(msgIndex, test.text, test.part, test.expected, index)
 		}
 	}
 }

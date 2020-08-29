@@ -25,6 +25,9 @@ Validar arquivo e expor erros:
 go vet arquivo.go
 ```
 
+
+## Comandos de teste
+
 Efetuar todos os testes dentro de um diretório
 ```
 go test
@@ -33,6 +36,26 @@ go test
 Efetuar os testes no modo "verboso" (com detalhes)
 ```
 go test -v
+```
+
+Efetuar os testes e obter o coverage
+```
+go test -cover
+```
+
+Efetuar os testes e obter o coverage file
+```
+go test -coverprofile=coverage.out
+```
+
+Efetuar os testes e obter o coverage por função e o coverage file
+```
+go tool cover -func=coverage.out
+```
+
+Efetuar os testes e obter um arquivo html do coverage
+```
+go tool cover -html=coverage.out
 ```
 
 Efetuar todos os testes dentro de sub diretórios
