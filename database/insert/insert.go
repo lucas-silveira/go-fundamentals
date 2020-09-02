@@ -16,11 +16,11 @@ func main() {
 
 	defer db.Close()
 
-	stmt, _ := db.Prepare("insert into usuarios(name) values(?)")
-	stmt.Exec("Mary")
-	stmt.Exec("John")
+	statement, _ := db.Prepare("insert into usuarios(name) values(?)")
+	statement.Exec("Mary")
+	statement.Exec("John")
 
-	res, _ := stmt.Exec("Peter")
+	res, _ := statement.Exec("Peter")
 
 	id, _ := res.LastInsertId()
 	fmt.Println(id)
