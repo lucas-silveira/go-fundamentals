@@ -11,6 +11,7 @@ func main() {
 	ch <- 1 // enviando para o canal o valor 1 (escrita)
 
 	<-ch // recebendo o valor do canal (leitura) e descartando a mensagem
+	// Aqui a operação vai ficar bloqueada até o channnel receber um valor.
 
 	ch <- 2
 	fmt.Println(<-ch) // 2
