@@ -4,7 +4,7 @@ import (
 	"database/sql"
 
 	_ "github.com/go-sql-driver/mysql" // o prefixo _ é usado para importar libs
-	// cujas funções não serão utilizados no código
+	// cujas funções não serão utilizadas no código
 )
 
 func exec(db *sql.DB, sql string) sql.Result {
