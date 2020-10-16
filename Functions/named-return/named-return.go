@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func revert(p1, p2 int) (second, first int) {
-	second = p2
 	first = p1
+	second = p2
 
 	return // retorno limpo: não há a necessidade de retornar as variáveis explicitamente
 }
