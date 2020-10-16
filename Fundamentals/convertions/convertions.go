@@ -22,7 +22,7 @@ func main() {
 
 	// string para int
 	num, _ := strconv.Atoi("123")
-	// Em Go as funções podem retornar dois valores. No caso acima, a função
+	// Em Go as funções podem retornar múltiplos valores. No caso acima, a função
 	// retorna o valor que buscamos e um segundo valor que representa um erro
 	// caso ele ocorra.
 	fmt.Println(num)       // 123

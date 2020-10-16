@@ -22,7 +22,7 @@ func main() {
 
 	var i2 rune = 'a'               // representa um mapeamento da tabela Unicode(int32)
 	fmt.Println(reflect.TypeOf(i2)) // int32
-	fmt.Println(i2)                 //97
+	fmt.Println(i2)                 // 97
 
 	// números reais (float32, float64)
 	var x float32 = 49.99
