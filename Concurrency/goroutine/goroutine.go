@@ -16,7 +16,7 @@ func main() {
 	// Execução serial
 	// speak("Mary", "Pq vc não fala comigo?", 3)
 
-	// o comando go cria uma nova corotina e executa a função em uma "thread" separada
+	// o comando go cria uma nova corotina e executa a função de forma concorrente/paralela
 	// go speak("Mary", "Ei...", 10)
 	// go speak("John", "Opa...", 10)
 
