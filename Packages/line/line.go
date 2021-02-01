@@ -15,6 +15,9 @@ package main
 
 import "math"
 
+// Em Go, os atributos com letras mínusculas são "privados" e atributos com
+// a primeira letra maiúscula são "públicos"
+
 // Point representa uma coordenada no plano cartesiano
 type Point struct {
 	x float64

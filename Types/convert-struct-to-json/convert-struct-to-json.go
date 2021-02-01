@@ -5,8 +5,6 @@ import (
 	"fmt"
 )
 
-// Em Go, os atributos com letras mínusculas são "privados" e atributos com
-// a primeira letra maiúscula são "públicos"
 type product struct {
 	// mapeando a struct para json
 	ID    int      `json:"id"`
