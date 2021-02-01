@@ -4,7 +4,7 @@ import "fmt"
 
 func doPurchase(work1, work2 bool) (bool, bool, bool) {
 	purchaseTv50 := work1 && work2
-	purchaseTv32 := work1 != work2 // ou exclusivo (xor)
+	purchaseTv32 := work1 != work2 // "ou" exclusivo (xor)
 	purchaseIceCream := work1 || work2
 
 	return purchaseTv50, purchaseTv32, purchaseIceCream

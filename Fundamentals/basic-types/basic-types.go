@@ -10,6 +10,7 @@ func main() {
 	// números inteiros
 	fmt.Println(1, 2, 1000)
 	fmt.Println(reflect.TypeOf(10)) // int
+	fmt.Printf("%T\n", 10)          // int
 
 	// números positivos uint8 uint16 uint32 uint64
 	var b byte = 255               // byte é um alias para o tipo uint8
