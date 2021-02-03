@@ -13,7 +13,7 @@ func speak(person, text string, length int) {
 }
 
 func main() {
-	// Execução serial
+	// Execução síncrona
 	// speak("Mary", "Pq vc não fala comigo?", 3)
 
 	// o comando go cria uma nova corotina e executa a função de forma concorrente/paralela
