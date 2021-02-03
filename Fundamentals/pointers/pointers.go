@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	// Ponteiro é um endereço de memória.
+	// Ponteiro é uma estrutura de dado que armazena um endereço de memória.
 
 	i := 1 // variáveis do tipo int ocupam 8 bytes na memória, equivalente a 64 bits.
 

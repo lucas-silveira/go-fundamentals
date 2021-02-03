@@ -20,6 +20,14 @@ func main() {
 
 	fmt.Println(approveds[123456789]) // Mark
 
+	val, exists := approveds[123456789] // Mark true
+
+	fmt.Println(val, exists)
+
+	if _, exists := approveds[123456789]; exists == true {
+		fmt.Println("existe!")
+	}
+
 	delete(approveds, 123456789)
 
 	fmt.Println(approveds) // map[321654987:Alice 987654321:John]
